@@ -1,12 +1,83 @@
-# React + Vite
+# 🚀 Personalized Career Pathway Planner - Frontend  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** for the **Personalized Career Pathway Planner**, built with **React + Vite**. The application allows users to explore career paths, track progress, and get AI-driven career guidance.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ **Vite** – Fast development build for React  
+- 🎨 **Tailwind CSS** – Utility-first styling for modern UI  
+- 🏗 **ShadCN/UI** – Pre-built, accessible, and customizable components  
+- 🏪 **React-Redux & Redux Toolkit** – State management  
+- 🔐 **Protected Routes & Authentication** – Secure login system  
+- 🌟 **More features will be added soon!**  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started  
+
+### 1️⃣ **Clone the Repository**  
+```sh
+git clone <your-repo-url>
+cd frontend
+```
+
+### 2️⃣ **Install Dependencies**  
+```sh
+npm install
+```
+
+### 3️⃣ **Run the Development Server**  
+```sh
+npm run dev
+```
+This will start the app at **`http://localhost:5173`**.
+
+---
+
+## 🛠️ Setup & Configuration  
+
+### ✅ **Tailwind CSS Setup**  
+Tailwind is already installed and configured in `tailwind.config.js`.  
+
+### ✅ **ShadCN UI Setup**  
+ShadCN is installed and set up for smooth and modern UI components.
+
+### ✅ **Redux Toolkit Setup**  
+The application uses Redux Toolkit for state management. Store and slices are inside the `store/` directory.
+
+---
+
+## 🔐 Authentication & Protected Routes  
+- **Google OAuth** is integrated for user authentication.
+- **JWT-based authentication** ensures security.
+- **Protected Routes** restrict access to authenticated users.
+
+---
+
+## 📦 Build & Deployment  
+
+### 🔨 **Build the Project**  
+```sh
+npm run build
+```
+
+### 🚀 **Deploy to Production**  
+You can deploy the frontend using services like **Vercel**, **Netlify**, or **GitHub Pages**.
+
+---
+
+## 📌 Upcoming Features  
+✅ Enhanced AI-driven career recommendations  
+✅ More UI improvements using ShadCN  
+✅ User dashboard for tracking career progress  
+✅ Dark mode support  
+
+---
+
+## 🤝 Contributing  
+Feel free to fork this repository and make a pull request with improvements!  
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
+
